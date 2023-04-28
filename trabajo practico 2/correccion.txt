@@ -1,0 +1,8 @@
+- la función procesar información tiene un calloc que no se entiende para qué está, considerando que no
+asigna el puntero a nada
+- los algoritmos no verifican que la memoria solicitada haya sido asignada
+- la creación de la matríz debiera ser hecha por una función y no mezclada en el código de las operaciones
+- los errores debieran ser manejados usando fprintf sobre el stderr
+- no implementa la operación para diagonalizar una matriz
+
+Nota: reentregar
